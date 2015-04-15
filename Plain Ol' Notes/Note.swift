@@ -8,6 +8,10 @@
 
 import UIKit
 
+var allNotes:[Note] = []
+var currentNoteIndex:Int = -1
+var noteTable:UITableView?
+
 class Note: NSObject {
     var date:String
     var note:String
