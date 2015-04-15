@@ -14,6 +14,7 @@
 		6CCC84141ADE54BB00644AE6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CCC84131ADE54BB00644AE6 /* Images.xcassets */; };
 		6CCC84171ADE54BB00644AE6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CCC84151ADE54BB00644AE6 /* LaunchScreen.xib */; };
 		6CCC84231ADE54BC00644AE6 /* Plain_Ol__NotesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCC84221ADE54BC00644AE6 /* Plain_Ol__NotesTests.swift */; };
+		6CCC842D1ADE629F00644AE6 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCC842C1ADE629F00644AE6 /* Note.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		6CCC841C1ADE54BB00644AE6 /* Plain Ol' NotesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Plain Ol' NotesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CCC84211ADE54BC00644AE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6CCC84221ADE54BC00644AE6 /* Plain_Ol__NotesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plain_Ol__NotesTests.swift; sourceTree = "<group>"; };
+		6CCC842C1ADE629F00644AE6 /* Note.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			children = (
 				6CCC840A1ADE54BB00644AE6 /* AppDelegate.swift */,
 				6CCC840C1ADE54BB00644AE6 /* MasterViewController.swift */,
+				6CCC842C1ADE629F00644AE6 /* Note.swift */,
 				6CCC840E1ADE54BB00644AE6 /* DetailViewController.swift */,
 				6CCC84101ADE54BB00644AE6 /* Main.storyboard */,
 				6CCC84131ADE54BB00644AE6 /* Images.xcassets */,
@@ -218,6 +221,7 @@
 				6CCC840F1ADE54BB00644AE6 /* DetailViewController.swift in Sources */,
 				6CCC840D1ADE54BB00644AE6 /* MasterViewController.swift in Sources */,
 				6CCC840B1ADE54BB00644AE6 /* AppDelegate.swift in Sources */,
+				6CCC842D1ADE629F00644AE6 /* Note.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
