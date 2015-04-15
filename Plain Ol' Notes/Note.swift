@@ -20,5 +20,10 @@ class Note: NSObject {
         date = NSDate().description
         note = ""
     }
+    
+    func dictionary() ->NSDictionary {
+        return ["note":note,"date":date]
+    }
+    
    
 }

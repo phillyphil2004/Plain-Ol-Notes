@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>F05AA744-B215-4E58-839D-D1F7879AD62A</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>Plain Ol' Notes</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>7D1BD64DE8810D3C58F5F6776C4A49A150DB3835</key>
 		<string>https://github.com/demingo/Plain-Ol-Notes.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Plain Ol' Notes.xcodeproj/project.xcworkspace</string>
+	<string>Plain Ol' Notes.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>7D1BD64DE8810D3C58F5F6776C4A49A150DB3835</key>
