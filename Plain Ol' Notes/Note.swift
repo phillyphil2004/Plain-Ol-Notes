@@ -25,5 +25,13 @@ class Note: NSObject {
         return ["note":note,"date":date]
     }
     
+    class func saveNotes(){
+        var aDictionaries:[NSDictionary] = []
+        for var i:Int = 0; i < allNotes.count; i++ {
+        aDictionaries.append(allNotes[i].dictionary())
+        }
+    
+    }
+    
    
 }
