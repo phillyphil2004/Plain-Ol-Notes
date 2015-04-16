@@ -12,6 +12,8 @@ var allNotes:[Note] = []
 var currentNoteIndex:Int = -1
 var noteTable:UITableView?
 
+let kAllNotes:String = "notes"
+
 class Note: NSObject {
     var date:String
     var note:String
@@ -30,7 +32,7 @@ class Note: NSObject {
         for var i:Int = 0; i < allNotes.count; i++ {
         aDictionaries.append(allNotes[i].dictionary())
         }
-    
+    NSUserDefaults.standardUserDefaults().setObject(aDictionaries, forKey: kAllNotes)
     }
     
    
