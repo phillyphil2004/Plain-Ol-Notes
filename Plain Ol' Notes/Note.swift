@@ -35,5 +35,15 @@ class Note: NSObject {
     NSUserDefaults.standardUserDefaults().setObject(aDictionaries, forKey: kAllNotes)
     }
     
-   
+    class func loadNotes(){
+        var defaults:NSUserDefaults = NSUserDefaults.standardUserDefaults()
+        var savedData:[NSDictionary]? = defaults.objectForKey(kAllNotes) as? [NSDictionary]
+        if let data:[NSDictionary] = savedData {
+            for var i:Int = 0; i < data.count; i++ {
+                var n:Note = Note()
+                n.setValuesForKeysWithDictionary(data[i] as [NSObject : AnyObject])
+                allNotes.append(n)
+            }
+        }
+    }
 }
