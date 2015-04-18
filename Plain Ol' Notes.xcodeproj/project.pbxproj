@@ -417,6 +417,7 @@
 				6CCC84281ADE54BC00644AE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6CCC84291ADE54BC00644AE6 /* Build configuration list for PBXNativeTarget "Plain Ol' NotesTests" */ = {
 			isa = XCConfigurationList;
@@ -425,6 +426,7 @@
 				6CCC842B1ADE54BC00644AE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
